@@ -1,0 +1,254 @@
+/* Inicio */
+
+body{
+	background-color: #f4f4f4;
+	color: black;
+	font-family: "Inter", sans-serif;
+	font-size: 1.1rem;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+/* Página principal */
+
+.container{
+	width: 75vw;
+	margin: auto;
+	overflow:hidden;
+}
+
+.footer{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.footer p{
+	color: #909090;
+}
+
+#main-header{
+	padding-top: 30px;
+}
+
+#main-header h1{
+	text-align: center;
+	font-size: 3em;
+    font-family: "IBM Plex Serif", serif;
+}
+
+#main-header ul{
+	text-align: center;
+	font-size: 1.2em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main-header li{
+	display: inline;
+	padding: 10px 10px
+}
+
+h1, h2, h3{
+	font-family: "IBM Plex Serif", serif;
+	font-weight: Bold;
+}
+
+a, a:visited{
+	text-decoration: none;
+	color: #006bb3;
+}
+
+a:hover{
+	color:#0090f2;
+}
+
+#section-1{
+	margin:40px 0;
+}
+
+#center-flex{
+	display: flex;
+}
+
+#banner{
+	flex: 2;
+	width: 25px;
+	padding: 25px;
+	object-fit: cover;
+}
+
+#members{
+	flex: 1;
+	padding-left: 25px;
+}
+
+/* Biografias */
+
+#bio h1{
+	text-align:center;
+	font-size: 1.8rem;
+	font-weight: Medium;
+	padding-top: 20px;
+}
+
+.bio-flex{
+	display: flex;
+	align-items: flex-start;
+}
+
+.bio-img{
+	flex: 1;
+	width: 50px;
+	object-fit: contain;
+}
+
+.biography-text{
+	flex: 2;
+	padding-left: 15px;
+}
+
+.biography-text p{
+	text-align: justify;
+	margin-top: 0;
+}
+
+/* Concert */
+
+#concerts-header{
+	font-size: 1.8em;
+	font-weight: Bold;
+}
+
+.conciertos h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+.container-concerts{
+	display: grid;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: center;
+}
+
+figure.concerts-row-1{
+	flex: 1;
+	vertical-align: top;
+	text-align: center;
+	width: 300px;
+}
+
+.concert-flex-item{
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 200px;
+	justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.concert-img{
+	width: 300px;
+}
+
+.caption{
+	width: 300px;
+	text-align: center;
+	display: block;
+}
+
+/* Smartphone view */
+
+@media(max-width:768px){
+	body{
+		font-size: 1.1rem;
+		text-align: center;
+	}
+	
+	.container{
+		width: 90%;
+		overflow: hidden;
+	}
+
+	#main-header h1{
+		font-size: 2.3rem;
+		line-height: 35px;
+	}
+
+	#section-1 ul{
+		padding: 0;
+		list-style-type: none;
+	}
+
+	#center-flex{
+		display: flex;
+		flex-flow: column;
+	}
+
+	#banner{
+		order: 2;
+		width: 100%;
+		padding: 25px;
+		object-fit: cover;
+	}
+
+	#members{
+		order: 1;
+	}
+
+	/* Biografias */ 
+
+	.bio-flex{
+		display:block;
+	}
+
+	.bio-img{
+		flex:1;
+		height:275px;
+		width:auto;
+		object-fit: contain;
+	}
+
+	.biography-text ul{
+		padding: 0;
+	}
+
+	.center-flex{
+		display: block;
+	}
+
+	.members{
+		padding-left: 0;
+	}
+
+	/* Concerts */
+
+	figure.concerts{
+		vertical-align: top;
+		display: block;
+		text-align: center;
+		width: auto;
+	}
+
+	.concert-img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.caption{
+		text-align: center;
+		display: block;
+	}
+
+}
