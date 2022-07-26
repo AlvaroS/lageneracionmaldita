@@ -1,7 +1,6 @@
 /* Css Style */
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap'); */
 
 body{
 	background-color: #f4f4f4;
@@ -11,6 +10,9 @@ body{
 	font-size: 1.1rem;
 	line-height: 1.3em;
 	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* Main page */
@@ -21,16 +23,13 @@ body{
 	overflow:hidden;
 }
 
-.footer{
-	position: relative;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+footer{
+	margin-top: auto;
 	text-align: center;
 	font-size: 0.8rem;
 }
 
-.footer p{
+footer p{
 	color: #909090;
 }
 
@@ -131,42 +130,60 @@ a:hover{
 
 /* Concert */
 
-#concerts-header{
-	font-size: 1.8em;
-	font-weight: Bold;
+#concerts h1{
+	font-size: 2.5rem;
+	text-align: left;
 }
 
-.conciertos h1{
-	font-size: 30px;
+#concert-links li{
+	list-style-type: none;
 	text-align: center;
 }
 
-.container-concerts{
-	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start;
-	align-items: center;
-	gap: 5px;
-}
-
-.concert-flex-item{
-	flex-basis: 220px;
-	justify-content: flex-start;
+.concerts-flex{
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+	margin-top: 25px;
 }
 
 .concert-img{
-	width: 220px;
+	flex: 1;
+	width: 25%;
+	object-fit: contain;
 }
 
-.caption{
-	width: 220px;
-	text-align: center;
-	display: block;
+.concert-text{
+	flex: 2;
+	padding-left: 15px;
 }
+
+.concert-text p{
+	text-align: justify;
+	margin-top: 0;
+}
+
+/* Not found page */
+
+#not-found{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#not-found h1{
+	text-align: center;
+	font-size: 3em;
+	font-family: "Crimson Text", "serif";
+}
+
+#not-found p{
+	text-align: center;
+	line-height: 1.6;
+}
+
 
 /* Smartphone view */
 
