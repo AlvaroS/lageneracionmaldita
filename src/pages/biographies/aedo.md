@@ -14,4 +14,4 @@ Algunas de sus obras más destacas son:
 
 - [Nocturno](https://youtu.be/xxhwmUnv4TU?t=2063)
 - [Trabajo dodecafónico](https://www.youtube.com/watch?v=Gdbh_d7luok)
-- Dos piezas para piano
+- Dos piezas _para piano_

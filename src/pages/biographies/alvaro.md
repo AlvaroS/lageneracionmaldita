@@ -16,6 +16,7 @@ además de interpretar obras de otros compositores en Saxofón.
 Actualmente se encuentra cursando estudios de composición en la universidad.
 
 Algunas de sus obras son:
-- [Interrupciones para oboe solo (2019)](https://www.youtube.com/watch?v=lMs_lzq00DM)
-- Transmisión para trío de cuerdas y piano (2021)
-- Suite botánica para guitarra sola (2021)
+- [Interrupciones _para oboe solo_ (2019)](https://www.youtube.com/watch?v=lMs_lzq00DM)
+- Transmisión _para trío de cuerdas y piano_ (2021)
+- Suite botánica _para guitarra sola_ (2021)
+- Resonancia _para piano solo_ (2022)

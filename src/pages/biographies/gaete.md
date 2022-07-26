@@ -17,5 +17,5 @@ Algunas de sus obras son:
 - Saboreando sucesos
 - Suite enanita para charango
 - [Menoscabo interno para piano](https://www.youtube.com/watch?v=MheuaIBflJw)
-- Dúo para oboe y fagot "Battousai"
+- Dúo para oboe y fagot _"Battousai"_
 - Trío añañuca
