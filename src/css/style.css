@@ -203,7 +203,11 @@ a:hover{
 		line-height: 35px;
 	}
 
-	#section-1 ul{
+	#members{
+		padding: 0;
+	}
+
+	#members ul{
 		padding: 0;
 		list-style-type: none;
 	}
@@ -247,21 +251,38 @@ a:hover{
 
 	/* Concerts */
 
-	figure.concerts{
-		display: block;
+	#concerts h1{
 		text-align: center;
-		width: auto;
+	}
+
+	.concerts-flex{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.concert-text ul{
+		padding: 0;
 	}
 
 	.concert-img{
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
-		width: 100%;
 	}
 
-	.caption{
-		text-align: center;
-		display: block;
+	/* Not found page */
+
+	#not-found{
+		margin: auto;
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
 	}
+
+	#not-found h1{
+		font-size: 2rem;
+	}
+	
 
 }
